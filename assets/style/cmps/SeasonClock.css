@@ -1,0 +1,69 @@
+.clock {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.winter {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.spring {
+  background-color: #e4ffcd;
+  color: #333;
+}
+
+.summer {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.fall {
+  background-color: #ff8c00;
+  color: white;
+}
+
+.clock.dark.winter {
+  background-color: #081d42;
+  color: #e0f2ff;
+  box-shadow: 0 0 25px rgba(74, 144, 226, 0.3);
+}
+
+.clock.dark.spring {
+  background-color: #2b5129;
+  color: #e5fbe5;
+  box-shadow: 0 0 25px rgba(144, 238, 144, 0.3);
+}
+
+.clock.dark.summer {
+  background-color: #5d5d00;
+  color: #fffacd;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+}
+
+.clock.dark.fall {
+  background-color: #3d1a00;
+  color: #ffe4b5;
+  box-shadow: 0 0 25px rgba(255, 140, 0, 0.3);
+}
+
+.clock:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.clock.dark:hover {
+  transform: translateY(-2px);
+}

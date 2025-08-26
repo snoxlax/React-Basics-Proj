@@ -1,0 +1,25 @@
+.mouse-monitor {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+.mouse-monitor button {
+  margin-top: 5px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mouse-monitor button:hover {
+  background-color: #555;
+  color: white;
+}
