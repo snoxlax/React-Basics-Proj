@@ -64,7 +64,7 @@ export function SeasonClock() {
     >
       <p>{month}</p>
       <img
-        src={`/assets/img/${season}.png`}
+        src={`../public/images/${season}.png`}
         alt={season}
       />
       <p>{day}</p>
