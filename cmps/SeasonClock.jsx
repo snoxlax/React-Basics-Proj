@@ -64,7 +64,7 @@ export function SeasonClock() {
     >
       <p>{month}</p>
       <img
-        src={`../public/images/${season}.png`}
+        src={`https://snoxlax.github.io/React-Basics-Proj/assets/img/${season}.png`}
         alt={season}
       />
       <p>{day}</p>
